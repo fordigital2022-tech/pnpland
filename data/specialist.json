@@ -5,72 +5,80 @@
       "name": "Панов Александр Леонтьевич",
       "position": "Главный врач. Психиатр, психиатр-нарколог",
       "experience": "31 год",
-      "image": "/upload/iblock/dcb/nk3i2o40erar7tpirc0327v3gxwu2q2c.jpg",
+      "image": "assets/reference/c83481ab0c-nk3i2o40erar7tpirc0327v3gxwu2q2c.jpg",
       "ariaLabel": "",
-      "alt": ""
+      "alt": "",
+      "needsConfirmation": true
     },
     {
       "id": "kruglov",
       "name": "Круглов Владимир Альбертович",
       "position": "Психиатр-нарколог",
       "experience": "21 год",
-      "image": "/upload/iblock/36a/cvrvmiqz4hiybalu9r23d5iuwf2121u7.jpg",
+      "image": "assets/reference/d9bb39e78b-cvrvmiqz4hiybalu9r23d5iuwf2121u7.jpg",
       "ariaLabel": "",
-      "alt": ""
+      "alt": "",
+      "needsConfirmation": true
     },
     {
       "id": "saharov",
       "name": "Сахаров Сергей Владимирович",
       "position": "Психиатр-нарколог, психотерапевт",
       "experience": "33 года",
-      "image": "/upload/iblock/0dd/en3xb3whhlxmibce268zm16nfgx1uyya.png",
+      "image": "assets/reference/985da91c8c-en3xb3whhlxmibce268zm16nfgx1uyya.png",
       "ariaLabel": "",
-      "alt": ""
+      "alt": "",
+      "needsConfirmation": true
     },
     {
       "id": "reva",
       "name": "Рева Виталий Петрович",
       "position": "Клинический психолог-реабилитолог",
       "experience": "17 лет",
-      "image": "/upload/iblock/9ab/0aky96jte496fyvn9id284l3j80m1o7n.jpg",
+      "image": "assets/reference/291cee30ed-0aky96jte496fyvn9id284l3j80m1o7n.jpg",
       "ariaLabel": "",
-      "alt": ""
+      "alt": "",
+      "needsConfirmation": true
     },
     {
       "id": "moiseev",
       "name": "Моисеев Дмитрий Борисович",
       "position": "Клинический психолог, Аналитический психолог",
       "experience": "10 лет",
-      "image": "/upload/iblock/a9c/vfpmjiczh67jw9ly4j2ad3m9emuxudku.jpg",
+      "image": "assets/reference/68398a7968-vfpmjiczh67jw9ly4j2ad3m9emuxudku.jpg",
       "ariaLabel": "",
-      "alt": ""
+      "alt": "",
+      "needsConfirmation": true
     },
     {
       "id": "shavrina",
       "name": "Шаврина Екатерина Васильевна",
       "position": "Клинический психолог",
       "experience": "14 лет",
-      "image": "/upload/iblock/fd9/hmtqlbk3ie0stf0yy0eopd7ou2ecpmp1.jpg",
+      "image": "assets/reference/a0824b4dc0-hmtqlbk3ie0stf0yy0eopd7ou2ecpmp1.jpg",
       "ariaLabel": "",
-      "alt": ""
+      "alt": "",
+      "needsConfirmation": true
     },
     {
       "id": "zaycev",
       "name": "Зайцев Александр Владимирович",
       "position": "Клинический психолог. Психоаналитик",
       "experience": "15 лет",
-      "image": "/upload/iblock/f39/039bexa619fttc62hcep2vbsyrhxndn0.jpg",
+      "image": "assets/reference/8f01077630-039bexa619fttc62hcep2vbsyrhxndn0.jpg",
       "ariaLabel": "",
-      "alt": ""
+      "alt": "",
+      "needsConfirmation": true
     },
     {
       "id": "udina",
       "name": "Юдина Людмила Владимировна",
       "position": "Клинический психолог, когнитивно поведенческая психотерапия",
       "experience": "15 лет",
-      "image": "/upload/iblock/423/r5e833p3bkqm07ro7poioagniwzckg3d.jpg",
+      "image": "assets/reference/cb48760bb8-r5e833p3bkqm07ro7poioagniwzckg3d.jpg",
       "ariaLabel": "",
-      "alt": ""
+      "alt": "",
+      "needsConfirmation": true
     }
   ]
 }
