@@ -8,7 +8,7 @@
       "image": "assets/reference/c83481ab0c-nk3i2o40erar7tpirc0327v3gxwu2q2c.jpg",
       "ariaLabel": "",
       "alt": "",
-      "needsConfirmation": true
+      "needsConfirmation": false
     },
     {
       "id": "kruglov",
@@ -18,7 +18,7 @@
       "image": "assets/reference/d9bb39e78b-cvrvmiqz4hiybalu9r23d5iuwf2121u7.jpg",
       "ariaLabel": "",
       "alt": "",
-      "needsConfirmation": true
+      "needsConfirmation": false
     },
     {
       "id": "saharov",
@@ -28,7 +28,7 @@
       "image": "assets/reference/985da91c8c-en3xb3whhlxmibce268zm16nfgx1uyya.png",
       "ariaLabel": "",
       "alt": "",
-      "needsConfirmation": true
+      "needsConfirmation": false
     },
     {
       "id": "reva",
@@ -38,7 +38,7 @@
       "image": "assets/reference/291cee30ed-0aky96jte496fyvn9id284l3j80m1o7n.jpg",
       "ariaLabel": "",
       "alt": "",
-      "needsConfirmation": true
+      "needsConfirmation": false
     },
     {
       "id": "moiseev",
@@ -48,7 +48,7 @@
       "image": "assets/reference/68398a7968-vfpmjiczh67jw9ly4j2ad3m9emuxudku.jpg",
       "ariaLabel": "",
       "alt": "",
-      "needsConfirmation": true
+      "needsConfirmation": false
     },
     {
       "id": "shavrina",
@@ -58,7 +58,7 @@
       "image": "assets/reference/a0824b4dc0-hmtqlbk3ie0stf0yy0eopd7ou2ecpmp1.jpg",
       "ariaLabel": "",
       "alt": "",
-      "needsConfirmation": true
+      "needsConfirmation": false
     },
     {
       "id": "zaycev",
@@ -68,7 +68,7 @@
       "image": "assets/reference/8f01077630-039bexa619fttc62hcep2vbsyrhxndn0.jpg",
       "ariaLabel": "",
       "alt": "",
-      "needsConfirmation": true
+      "needsConfirmation": false
     },
     {
       "id": "udina",
@@ -78,7 +78,7 @@
       "image": "assets/reference/cb48760bb8-r5e833p3bkqm07ro7poioagniwzckg3d.jpg",
       "ariaLabel": "",
       "alt": "",
-      "needsConfirmation": true
+      "needsConfirmation": false
     }
   ]
 }
