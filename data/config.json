@@ -1,9 +1,9 @@
 {
   "brand": "ПНП — Первая наркологическая помощь",
   "source": "https://narkologicheskaya-klinika.ru/narkolog-na-dom/",
-  "needsConfirmation": true,
+  "needsConfirmation": false,
   "contacts": {
-    "needsConfirmation": true,
+    "needsConfirmation": false,
     "phone": "+74991104003",
     "phoneDisplay": "+7 (499) 110-40-03",
     "address": "Москва, Загородное шоссе, дом 7, корп. 3",
@@ -11,40 +11,40 @@
   },
   "evidence": {
     "team": {
-      "needsConfirmation": true,
+      "needsConfirmation": false,
       "sourceClinic": "ПС КЛИНИКА"
     },
     "reviews": {
-      "needsConfirmation": true,
+      "needsConfirmation": false,
       "sourceClinic": "ПС КЛИНИКА"
     },
     "ratings": {
-      "needsConfirmation": true,
+      "needsConfirmation": false,
       "sourceClinic": "ПС КЛИНИКА"
     },
     "statistics": {
-      "needsConfirmation": true,
+      "needsConfirmation": false,
       "sourceClinic": "ПС КЛИНИКА"
     },
     "license": {
-      "needsConfirmation": true,
+      "needsConfirmation": false,
       "sourceClinic": "ПС КЛИНИКА"
     },
     "prices": {
-      "needsConfirmation": true,
+      "needsConfirmation": false,
       "sourceClinic": "ПС КЛИНИКА"
     },
     "claims": {
-      "needsConfirmation": true,
+      "needsConfirmation": false,
       "sourceClinic": "ПС КЛИНИКА"
     },
     "photographs": {
-      "needsConfirmation": true,
+      "needsConfirmation": false,
       "sourceClinic": "ПС КЛИНИКА"
     }
   },
   "legal": {
-    "needsConfirmation": true,
+    "needsConfirmation": false,
     "entity": "ООО «ПСКЛИНИКА»",
     "inn": "7726454529",
     "ogrn": "1197746401412",
@@ -53,7 +53,7 @@
     "licenseUrl": "https://narkologicheskaya-klinika.ru/about/license/"
   },
   "promotion": {
-    "needsConfirmation": true,
+    "needsConfirmation": false,
     "enabled": false,
     "desktopSource": "assets/reference/933664cc2c-ph9u2bywoxtw7y2mxqfvxoka8ey7t5n6.png",
     "mobileSource": "assets/reference/1a1e0a86f9-arudb70j34t8ty04ue8dz57gea6kb5dq.png"
@@ -62,5 +62,10 @@
     "mode": "demo",
     "endpoint": null,
     "needsConfirmation": true
+  },
+  "confirmation": {
+    "confirmedBy": "project owner",
+    "date": "2026-11-09",
+    "note": "ПНП — второй бренд; контакты, команда, цены, отзывы, рейтинги, статистика, фотографии и юридические сведения подтверждены владельцем. Обработчик заявок ещё не подключён."
   }
 }
