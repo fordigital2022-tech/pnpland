@@ -1,0 +1,12 @@
+{
+  "name": "pnp-narkolog-na-dom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Адаптивный лендинг ПНП — Первая наркологическая помощь",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "build": "python3 scripts/build.py",
+    "preview": "python3 -m http.server 3000 --bind 0.0.0.0 --directory dist",
+    "test": "node scripts/smoke.cjs"
+  }
+}

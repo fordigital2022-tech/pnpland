@@ -1,0 +1,66 @@
+{
+  "brand": "ПНП — Первая наркологическая помощь",
+  "source": "https://narkologicheskaya-klinika.ru/narkolog-na-dom/",
+  "needsConfirmation": true,
+  "contacts": {
+    "needsConfirmation": true,
+    "phone": "+74991104003",
+    "phoneDisplay": "+7 (499) 110-40-03",
+    "address": "Москва, Загородное шоссе, дом 7, корп. 3",
+    "email": "info@ps-clinic.ru"
+  },
+  "evidence": {
+    "team": {
+      "needsConfirmation": true,
+      "sourceClinic": "ПС КЛИНИКА"
+    },
+    "reviews": {
+      "needsConfirmation": true,
+      "sourceClinic": "ПС КЛИНИКА"
+    },
+    "ratings": {
+      "needsConfirmation": true,
+      "sourceClinic": "ПС КЛИНИКА"
+    },
+    "statistics": {
+      "needsConfirmation": true,
+      "sourceClinic": "ПС КЛИНИКА"
+    },
+    "license": {
+      "needsConfirmation": true,
+      "sourceClinic": "ПС КЛИНИКА"
+    },
+    "prices": {
+      "needsConfirmation": true,
+      "sourceClinic": "ПС КЛИНИКА"
+    },
+    "claims": {
+      "needsConfirmation": true,
+      "sourceClinic": "ПС КЛИНИКА"
+    },
+    "photographs": {
+      "needsConfirmation": true,
+      "sourceClinic": "ПС КЛИНИКА"
+    }
+  },
+  "legal": {
+    "needsConfirmation": true,
+    "entity": "ООО «ПСКЛИНИКА»",
+    "inn": "7726454529",
+    "ogrn": "1197746401412",
+    "license": "Л041-01137-77/00355283",
+    "privacyUrl": "https://narkologicheskaya-klinika.ru/about/confidential/",
+    "licenseUrl": "https://narkologicheskaya-klinika.ru/about/license/"
+  },
+  "promotion": {
+    "needsConfirmation": true,
+    "enabled": false,
+    "desktopSource": "assets/reference/933664cc2c-ph9u2bywoxtw7y2mxqfvxoka8ey7t5n6.png",
+    "mobileSource": "assets/reference/1a1e0a86f9-arudb70j34t8ty04ue8dz57gea6kb5dq.png"
+  },
+  "form": {
+    "mode": "demo",
+    "endpoint": null,
+    "needsConfirmation": true
+  }
+}
