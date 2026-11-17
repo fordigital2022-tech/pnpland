@@ -23,6 +23,10 @@ const server = spawn('python3', ['-m', 'http.server', '3180', '--bind', '127.0.0
    assert.equal(await page.locator('#hero .hero-services li').evaluateAll(xs=>xs.every(x=>x.scrollWidth<=x.clientWidth)),true,'service text overflow');
    const heroBottom = await page.locator('#hero').evaluate(e=>e.getBoundingClientRect().bottom+scrollY);
    await page.screenshot({path:'hero-previews/hero-'+width+'.png',clip:{x:0,y:0,width,height:Math.ceil(heroBottom)},animations:'disabled'});
+   if ([375,1440].includes(width) && process.env.EMIT_HERO_PREVIEWS === '1') {
+    const preview = await page.screenshot({type:'jpeg',quality:65,clip:{x:0,y:0,width,height:Math.ceil(heroBottom)},animations:'disabled'});
+    console.log('HERO_PREVIEW_'+width+'_BEGIN'+preview.toString('base64')+'HERO_PREVIEW_END');
+   }
    if (width<768) {
     const box=await page.locator('#hero .hero-visual').boundingBox();
     const actions=await page.locator('#hero .hero-buttons').boundingBox();
