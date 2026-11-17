@@ -1,0 +1,44 @@
+name: Hero browser previews
+on:
+  pull_request:
+    paths:
+      - 'app.js'
+      - 'style.css'
+      - 'data/view.json'
+      - 'scripts/hero-preview.cjs'
+      - '.github/workflows/hero-preview.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test tools outside project
+        run: |
+          npm install --prefix /tmp/pnp-browser playwright@1.56.1
+          /tmp/pnp-browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Build and check syntax
+        run: |
+          node --check app.js
+          npm run build
+      - name: Existing browser checks
+        run: |
+          export PLAYWRIGHT_MODULE=/tmp/pnp-browser/node_modules/playwright
+          export CHROMIUM_PATH="$(node -e "process.stdout.write(require(process.env.PLAYWRIGHT_MODULE).chromium.executablePath())")"
+          npm test
+      - name: Hero responsive checks and screenshots
+        env:
+          PLAYWRIGHT_MODULE: /tmp/pnp-browser/node_modules/playwright
+        run: node scripts/hero-preview.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hero-desktop-and-mobile
+          path: hero-previews/*.png
+          if-no-files-found: warn
+          retention-days: 14
