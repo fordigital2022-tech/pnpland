@@ -34,6 +34,7 @@ jobs:
       - name: Hero responsive checks and screenshots
         env:
           PLAYWRIGHT_MODULE: /tmp/pnp-browser/node_modules/playwright
+          EMIT_HERO_PREVIEWS: '1'
         run: node scripts/hero-preview.cjs
       - uses: actions/upload-artifact@v4
         if: always()
