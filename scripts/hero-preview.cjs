@@ -16,12 +16,15 @@ const server = spawn('python3', ['-m', 'http.server', '3180', '--bind', '127.0.0
    await page.setViewportSize({width,height:1000});
    await page.evaluate(async () => { await Promise.all([...document.querySelectorAll('#hero img,header img')].map(i => i.decode())); });
    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, 'page overflow at '+width);
-   assert.equal(await page.locator('#hero h1').innerText(), 'Нарколог на дом');
+   assert.equal((await page.locator('#hero h1').innerText()).replace(/\s+/g,' '), 'Нарколог на дом');
    assert.equal(await page.locator('#hero .hero-services li').count(), 4);
    assert.equal(await page.locator('#hero .hero-services').evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length), 2);
    assert.equal(await page.locator('#hero .hero-description,#hero .hero-benefits,#hero .trust-row').count(), 0);
    assert.equal(await page.locator('#hero .hero-services li').evaluateAll(xs=>xs.every(x=>x.scrollWidth<=x.clientWidth)),true,'service text overflow');
+   await page.evaluate(()=>document.activeElement?.blur());
+   await page.mouse.move(0,0);
    const heroBottom = await page.locator('#hero').evaluate(e=>e.getBoundingClientRect().bottom+scrollY);
+   await page.setViewportSize({width,height:Math.max(1000,Math.ceil(heroBottom)+100)});
    await page.screenshot({path:'hero-previews/hero-'+width+'.png',clip:{x:0,y:0,width,height:Math.ceil(heroBottom)},animations:'disabled'});
    if ([375,1440].includes(width) && process.env.EMIT_HERO_PREVIEWS === '1') {
     const preview = await page.screenshot({type:'jpeg',quality:65,clip:{x:0,y:0,width,height:Math.ceil(heroBottom)},animations:'disabled'});
